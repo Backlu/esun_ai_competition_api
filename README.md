@@ -2,12 +2,12 @@
 - API架構
     - 最底層是時下最時尚的API模組FasiAPI, 站在巨人的肩膀上一直是我們團隊的成功心法. FastAPI的內部架構就不贅述了, 人生苦短, 我用Python.
     - 中層是辨識影像內中文字的核心功能, 這部分功能請參考Source code內的run_inference.py
-    - 最上程式API的出入口門戶, 接受辨識需求的輸入與答案的回傳. 這部分功能請參考Source code內的app.py
+    - 最上層是API的出入口門戶, 接受辨識需求的輸入與答案的回傳. 這部分功能請參考Source code內的app.py
 
 <P Align=center><img src="https://github.com/Backlu/esun_ai_competition_api/blob/main/api_framework.png" width="40%" alt="API架構"></p>
 
 - API運作流程
-    - End to End的運作流程也是我們在設計API時的心血結晶, 一定要在這裡分享給大家. 流程中的每一個方塊都是團隊裡每一位Data Enginnering, Data Scienties的心血結晶, 我們也不吝嗇的將每一部分的Source Code都分享在這個github repo裡了. 想要我的寶藏嗎? 如果想要的話, 那就到Source code去找吧, 我全部都放在那裡. 
+    - End to End的運作流程也是我們在設計API時的心血結晶, 一定要在這裡分享給大家. 流程中的每一個方塊都是團隊裡每一位Data Enginner, Data Scientist的心血結晶, 我們也不吝嗇的將每一部分的Source Code都分享在這個github repo裡了. 想要我的寶藏嗎? 如果想要的話, 那就到Source code去找吧, 我全部都放在那裡. 
 
 <P Align=center><img src="https://github.com/Backlu/esun_ai_competition_api/blob/main/end2end.png" width="90%" alt="End2End"></p>
 
@@ -15,14 +15,14 @@
 ## 雲端平台
 - 多快好省
     - 又好又穩: 在6/15測試賽的API斷線災情中, 完全不受影響! 
-    - 又多又快: 最多可配置4張V100 GPU卡, 想多快就有多快!
+    - 又多又快: 最多可配置8張V100 GPU卡與32核心的CPU, 想多快就有多快!
     - 省錢省力: 每小時86就能使用原價30多萬的V100, 有錢還買不到的V100!
 <P Align=center><img src="https://github.com/Backlu/esun_ai_competition_api/blob/main/api_borken.png" width="50%" alt="API斷線災情"></p>    
 
 - 簡單好用
   - 自帶jupyter notebook & ssh功能. 超貼心! 
 - 系統資源監控
-  - 圖形化介面監控CPU與GPU的運算資源走勢, 在正式賽期間分分秒掌控運算資源變化, 比看股票還刺激啊! 
+  - 圖形化介面監控CPU與GPU的運算資源走勢, 在正式賽期間分分秒掌控運算資源變化, 比看股票還刺激! 
 - 無痛備份
   - TWCC使用docker image的方式, 讓使用者one click無痛備份每一個程式與模型版本 
 <P Align=center><img src="https://github.com/Backlu/esun_ai_competition_api/blob/main/twcc_good.png" width="60%" alt="TWCC"></p>
