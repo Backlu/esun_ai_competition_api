@@ -21,9 +21,7 @@
 
 - 簡單好用
   - 自帶jupyter notebook & ssh功能. 超貼心! 
-- 系統資源監控
   - 圖形化介面監控CPU與GPU的運算資源走勢, 在正式賽期間分分秒掌控運算資源變化, 比看股票還刺激! 
-- 無痛備份
   - TWCC使用docker image的方式, 讓使用者one click無痛備份每一個程式與模型版本 
 <P Align=center><img src="https://github.com/Backlu/esun_ai_competition_api/blob/main/twcc_good.png" width="60%" alt="TWCC"></p>
 
