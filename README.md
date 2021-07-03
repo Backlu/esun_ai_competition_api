@@ -1,6 +1,6 @@
 ## API設計心法
 - API架構
-    - 最底層是時下最時尚的API模組FasiAPI, 站在巨人的肩膀上一直是我們團隊的成功心法. FastAPI的內部架構就不贅述了, 人生苦短, 我用Python.
+    - 最底層是時下最時尚的API模組FasiAPI, 站在巨人的肩膀上一直是我們團隊的成功心法. FastAPI的內部架構就不贅述了, 人生苦短, 我用python.
     - 中層是辨識影像內中文字的核心功能, 這部分功能請參考Source code內的run_inference.py
     - 最上層是API的出入口門戶, 接受辨識需求的輸入與答案的回傳. 這部分功能請參考Source code內的app.py
 
